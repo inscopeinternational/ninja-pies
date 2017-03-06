@@ -12,6 +12,18 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NinjaPies.Domain", "NinjaPi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{136F83A3-E02E-41D6-B951-284A1158D919}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{84AE8EB0-6915-47E2-A3C2-C481A228EB74}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NinjaPies.SharedKernel", "NinjaPies.SharedKernel\NinjaPies.SharedKernel.xproj", "{CA76CA2F-CA85-4CE0-9066-E42ED9337478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{211D9544-63A3-4B38-B3A0-7058C685405A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NinjaPies.Application", "NinjaPies.Application\NinjaPies.Application.xproj", "{CF474926-8C6F-4D7E-B791-440CED85BAA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{86DCA0BF-D4CC-43E6-BF75-DC842F4C5F91}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NinjaPies.Data", "NinjaPies.Data\NinjaPies.Data.xproj", "{F0C07095-0A59-4D56-A845-62E6E0C1555B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +34,26 @@ Global
 		{2CA0636C-6653-45C0-9FAD-2A0C0BAC9450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA0636C-6653-45C0-9FAD-2A0C0BAC9450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA0636C-6653-45C0-9FAD-2A0C0BAC9450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA76CA2F-CA85-4CE0-9066-E42ED9337478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA76CA2F-CA85-4CE0-9066-E42ED9337478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA76CA2F-CA85-4CE0-9066-E42ED9337478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA76CA2F-CA85-4CE0-9066-E42ED9337478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF474926-8C6F-4D7E-B791-440CED85BAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF474926-8C6F-4D7E-B791-440CED85BAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF474926-8C6F-4D7E-B791-440CED85BAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF474926-8C6F-4D7E-B791-440CED85BAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C07095-0A59-4D56-A845-62E6E0C1555B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C07095-0A59-4D56-A845-62E6E0C1555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C07095-0A59-4D56-A845-62E6E0C1555B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C07095-0A59-4D56-A845-62E6E0C1555B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2CA0636C-6653-45C0-9FAD-2A0C0BAC9450} = {136F83A3-E02E-41D6-B951-284A1158D919}
+		{CA76CA2F-CA85-4CE0-9066-E42ED9337478} = {84AE8EB0-6915-47E2-A3C2-C481A228EB74}
+		{CF474926-8C6F-4D7E-B791-440CED85BAA8} = {211D9544-63A3-4B38-B3A0-7058C685405A}
+		{F0C07095-0A59-4D56-A845-62E6E0C1555B} = {86DCA0BF-D4CC-43E6-BF75-DC842F4C5F91}
 	EndGlobalSection
 EndGlobal

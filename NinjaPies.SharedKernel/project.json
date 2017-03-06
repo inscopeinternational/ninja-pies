@@ -2,8 +2,11 @@
   "version": "1.0.0-*",
 
   "dependencies": {
+    "Autofac": "4.4.0",
+    "AutoMapper": "5.0.2",
     "NETStandard.Library": "1.6.0",
-    "NinjaPies.SharedKernel": "1.0.0-*"
+    "System.Reflection": "4.3.0",
+    "System.Reflection.TypeExtensions": "4.3.0"
   },
 
   "frameworks": {
