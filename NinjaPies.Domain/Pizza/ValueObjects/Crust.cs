@@ -16,8 +16,8 @@ namespace NinjaPies.Domain.Model
     public class Crust: ValueObject<Crust>
     {
          public CrustType Id { get; private set; }
-        public string Name { get; set; }
-        public float Cost { get; set; }
+        public string Name { get; private set; }
+        public float Cost { get; private set; }
 
         public Crust(int id, string name, float cost)
         {

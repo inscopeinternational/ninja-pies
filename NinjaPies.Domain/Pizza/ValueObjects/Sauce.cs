@@ -17,8 +17,8 @@ namespace NinjaPies.Domain.ValueObjects
     public class Sauce: ValueObject<Sauce>
     {
         public SauceType Id { get; private set; }
-        public string Name { get; set; }
-        public float Cost { get; set; }
+        public string Name { get; private set; }
+        public float Cost { get; private set; }
 
         public Sauce(int id, string name, float cost)
         {

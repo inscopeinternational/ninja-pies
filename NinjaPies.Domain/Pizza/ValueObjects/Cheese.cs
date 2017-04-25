@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using NinjaPies.Domain.Model;
-using NinjaPies.SharedKernel;
+﻿using NinjaPies.SharedKernel;
 
 namespace NinjaPies.Domain.ValueObjects
 {
@@ -16,8 +11,8 @@ namespace NinjaPies.Domain.ValueObjects
     public class Cheese : ValueObject<Cheese>
     {
         public CheeseType Id { get; private set; }
-        public string Name { get; set; }
-        public float Cost { get; set; }
+        public string Name { get; private set; }
+        public float Cost { get; private set; }
 
         public Cheese(int id, string name, float cost)
         {

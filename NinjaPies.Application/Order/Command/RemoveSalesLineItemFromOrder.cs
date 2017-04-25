@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NinjaPies.Application.Pizza.Command
+namespace NinjaPies.Application.Order.Command
 {
-    public class RemovePizzaFromShoppingCart
+    public class RemoveSalesLineItemFromOrder
     {
     }
 }

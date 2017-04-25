@@ -13,9 +13,14 @@ namespace NinjaPies.Application.Pizza.Command
 
         // var pizza = Map PizzaDTO to Pizza Object
 
-        // Calculate Cost of Pizza based on user selections
-        // cost = x...
-        // pizza.setCost(x);
+
+        // ===============================================
+        // create pizza object from DTO
+        // pizza.CreatePizza
+
+        // custom pizza should have different pricing feature...
+
+        // call a domain service to calculate the cost?
 
 
         // pizza.CreatedBy = 
