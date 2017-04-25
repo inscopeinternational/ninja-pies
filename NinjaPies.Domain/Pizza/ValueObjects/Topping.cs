@@ -1,4 +1,6 @@
-﻿using NinjaPies.SharedKernel;
+﻿using System;
+using System.Collections.Generic;
+using NinjaPies.SharedKernel;
 
 namespace NinjaPies.Domain.Model
 {
@@ -22,6 +24,11 @@ namespace NinjaPies.Domain.Model
             Id = (ToppingType)id;
             Name = name;
             Cost = cost;
+        }
+
+        protected override IEnumerable<object> GetAttributesToIncludeInEqualityCheck()
+        {
+            throw new NotImplementedException();
         }
     }
 }

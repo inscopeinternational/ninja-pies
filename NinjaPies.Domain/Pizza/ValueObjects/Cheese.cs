@@ -1,4 +1,5 @@
-﻿using NinjaPies.SharedKernel;
+﻿using System.Collections.Generic;
+using NinjaPies.SharedKernel;
 
 namespace NinjaPies.Domain.ValueObjects
 {
@@ -19,6 +20,11 @@ namespace NinjaPies.Domain.ValueObjects
             Id = (CheeseType)id;
             Name = name;
             Cost = cost;
+        }
+
+        protected override IEnumerable<object> GetAttributesToIncludeInEqualityCheck()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

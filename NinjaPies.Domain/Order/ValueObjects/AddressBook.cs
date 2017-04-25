@@ -1,6 +1,6 @@
 ﻿
 
-namespace NinjaPies.Domain.Order.ValueObjects
+namespace NinjaPies.Domain.Order
 {
     public class AddressBook
     {

@@ -12,22 +12,17 @@ namespace NinjaPies.Domain.Order
         public int CustomerId { get; set; }
         public DateTime OrderDate { get; set; }
 
-
         public Payment Payment { get; set; }            // todo: add payment confirmation domain event to this..
 
         public ICollection<SalesLineItem> SalesLineItems { get; set; }
+
 
         // todo: Add ORDER CHARGES.... need way to set these as well. Maybe this isn't a value object?
 
 
 
 
-
-
-
-
         // todo: Create Order - Static Method OR via constructor??
-
         public static Order CreateOrder(int customerId)
         {
 
@@ -36,8 +31,7 @@ namespace NinjaPies.Domain.Order
         }
 
         public Order()
-        {
-            
+        {            
         }
 
 

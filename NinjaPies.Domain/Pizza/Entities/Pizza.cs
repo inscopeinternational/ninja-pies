@@ -5,9 +5,9 @@ using NinjaPies.SharedKernel;
 
 namespace NinjaPies.Domain.Model
 {
-    public class Pizza: Entity<int>
+    public class Pizza
     {
-        public Guid Id { get; private set; }
+        //public Guid Id { get; private set; }
         public string Name { get; private set; }       
         public IEnumerable<Topping> Toppings { get; private set; }
         public Crust Crust { get; private set; }
@@ -16,9 +16,9 @@ namespace NinjaPies.Domain.Model
         public Decimal Cost { get; private set; }       // Cost before coupons, specials, etc
 
 
-        public Pizza(Guid id, string name, IEnumerable<Topping> toppings, Crust crust, Cheese cheese, Sauce sauce, decimal cost)
+        public Pizza(string name, IEnumerable<Topping> toppings, Crust crust, Cheese cheese, Sauce sauce, decimal cost)
         {
-            Id = id;
+            //Id = id;
             Name = name;
             Toppings = toppings;
             Crust = crust;

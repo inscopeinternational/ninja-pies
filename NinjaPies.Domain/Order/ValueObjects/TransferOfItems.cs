@@ -1,6 +1,7 @@
-﻿using NinjaPies.Domain.Order;
+﻿using System;
+using System.Collections.Generic;
+using NinjaPies.Domain.Order;
 using NinjaPies.SharedKernel;
-
 
 namespace NinjaPies.Domain.OrderingPizza.ValueObjects
 {
@@ -28,10 +29,9 @@ namespace NinjaPies.Domain.OrderingPizza.ValueObjects
 
         }
 
-
-
-
-
-
+        protected override IEnumerable<object> GetAttributesToIncludeInEqualityCheck()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

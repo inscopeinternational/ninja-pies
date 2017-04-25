@@ -25,5 +25,10 @@ namespace NinjaPies.Domain.Model
             Name = name;
             Cost = cost;
         }
+
+        protected override IEnumerable<object> GetAttributesToIncludeInEqualityCheck()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
